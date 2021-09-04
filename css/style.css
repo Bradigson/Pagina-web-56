@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     height:20vh;
     position:fixed;
@@ -113,4 +117,59 @@ h1{
     color:#eee;
     width:60%;
     font-size:20px;
+}
+.sesion3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#eee;
+    background:linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../imgs/tree_and_mountain_landscape_3107.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+}
+.article1__contnt{
+    text-align:center;
+    width:50%;
+    font-size:20px;
+}
+
+
+
+.sesion4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#eee;
+    background:linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.2)), url(../imgs/landscape_background_3107.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100vh;
+
+}
+
+
+.clocktime{
+    background:#FCF3CF;
+    font-size:100px;
+    color:#262626;
+    padding:10px 10px;
+    box-shadow:0 0 5px #D4EFDF,
+    0 0 15px #D4EFDF,
+    0 0 30px #D4EFDF,
+    0 0 60px #D4EFDF;
+    position:absolute;
+    border-radius:10px;
+
+    
+}
+.time{
+    opacity:.4;
+}
+#cover{
+    background:#262626;
+    width:440px;
+    position:absolute;
+    height:230px;
+    border-radius:4px;
 }
